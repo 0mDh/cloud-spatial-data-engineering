@@ -28,3 +28,15 @@ Export to GeoJSON / CSV
 S3 ingestion
 Dockerized service
 Scheduled orchestration
+
+7. Risks & Edge Cases
+Invalid geometries
+Duplicate features
+Projection mismatch
+Large file performance
+Missing attribute schema
+
+8. Logging Strategy
+Error log file
+Validation summary table
+Row-level error capture
