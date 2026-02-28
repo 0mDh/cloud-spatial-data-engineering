@@ -1,0 +1,9 @@
+#Day 002 – Transition Log
+Biggest Win:
+Built and executed first working validator pipeline.
+
+Lesson:
+Environment setup friction is normal. Momentum beats perfection.
+
+Tomorrow Focus:
+Refactor + logging.
