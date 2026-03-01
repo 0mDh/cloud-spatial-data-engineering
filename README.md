@@ -55,3 +55,12 @@ Transition from GIS Data Engineer to Cloud Data Engineer with Spatial Specializa
 \- Portfolio polishing
 
 Started:20260227
+
+## How to Run
+
+1. Install Python 3.x
+2. Navigate to project root
+3. Run:
+   python scripts/data_validation.py
+
+Day03: 20260301
