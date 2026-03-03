@@ -1,3 +1,4 @@
+import logging
 import csv
 
 def read_data(input_file):
@@ -44,13 +45,19 @@ def main():
     input_file = "../data/sample_data.csv"
     output_file = "../data/cleaned_data.csv"
 
+    logging.basicConfig(
+    filename="../logs/validation.log",
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s"
+    )
+
     rows = read_data(input_file)
     valid_rows, errors = validate_rows(rows)
     write_cleaned_data(output_file, valid_rows)
+	
 
-    print("Validation Complete")
-    print(f"Valid Rows: {len(valid_rows)}")
-    print(f"Error Rows: {len(errors)}")
+    logging.info(f"Valid Rows: {len(valid_rows)}")
+    logging.info(f"Error Rows: {len(errors)}")
 
     for error in errors:
         print(f"Row ID {error[0]} Errors: {', '.join(error[1])}")

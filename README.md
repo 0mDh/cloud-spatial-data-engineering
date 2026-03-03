@@ -61,6 +61,19 @@ Started:20260227
 1. Install Python 3.x
 2. Navigate to project root
 3. Run:
-   python scripts/data_validation.py
+   python scripts/data\_validation.py
 
 Day03: 20260301
+
+
+
+\## Project Purpose
+
+
+
+This project simulates a basic spatial data validation pipeline.
+
+Goal: build modular ETL structure before integrating PostGIS and cloud layer.
+
+Day 04: 20260303
+
