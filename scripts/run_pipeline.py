@@ -1,5 +1,7 @@
-import sys
 import logging
+# logging intitalization
+import sys
+
 from pathlib import Path
 
 # Dynamically add project root to sys.path

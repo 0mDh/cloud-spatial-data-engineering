@@ -77,3 +77,7 @@ Goal: build modular ETL structure before integrating PostGIS and cloud layer.
 
 Day 04: 20260303
 
+
+
+\#Running Stash
+
